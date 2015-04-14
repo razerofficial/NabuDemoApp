@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		635992A31ADD954D0078EC6B /* RZDSleepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 635992A21ADD954D0078EC6B /* RZDSleepViewController.m */; };
+		63737ACF1AD5E547004CBD1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63737ACE1AD5E547004CBD1F /* main.m */; };
+		63737AD21AD5E547004CBD1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63737AD11AD5E547004CBD1F /* AppDelegate.m */; };
+		63737AD81AD5E547004CBD1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63737AD61AD5E547004CBD1F /* Main.storyboard */; };
+		63737ADA1AD5E547004CBD1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63737AD91AD5E547004CBD1F /* Images.xcassets */; };
+		63737ADD1AD5E547004CBD1F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63737ADB1AD5E547004CBD1F /* LaunchScreen.xib */; };
+		63737AE91AD5E547004CBD1F /* nabudemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63737AE81AD5E547004CBD1F /* nabudemoTests.m */; };
+		63737AF71AD5FA88004CBD1F /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 63737AF61AD5FA88004CBD1F /* libxml2.dylib */; };
+		63737AFD1AD6EF94004CBD1F /* RZDLoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63737AFC1AD6EF94004CBD1F /* RZDLoadingViewController.m */; };
+		63737B001AD6EFB1004CBD1F /* RZDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63737AFF1AD6EFB1004CBD1F /* RZDTableViewController.m */; };
+		63737B031AD700C7004CBD1F /* RZDFitnessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63737B021AD700C7004CBD1F /* RZDFitnessViewController.m */; };
+		63737B1A1AD70F3C004CBD1F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63737B191AD70F3C004CBD1F /* QuartzCore.framework */; };
+		63737B301AD725AD004CBD1F /* RZDPulseAndHandshakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63737B2F1AD725AD004CBD1F /* RZDPulseAndHandshakeViewController.m */; };
+		63737B351AD74DCF004CBD1F /* NabuOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63737B341AD74DCF004CBD1F /* NabuOpenSDK.framework */; };
+		63A2FE9D1AD854D500764A02 /* RZDUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A2FE9C1AD854D500764A02 /* RZDUserInfoViewController.m */; };
+		63A2FEA21AD871C000764A02 /* RZDNotificationTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A2FEA11AD871C000764A02 /* RZDNotificationTestViewController.m */; };
+		63A2FEA51AD899A300764A02 /* RZDClipboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A2FEA41AD899A300764A02 /* RZDClipboardViewController.m */; };
+		63A2FEAC1ADC3E8B00764A02 /* RZDBandListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A2FEAB1ADC3E8B00764A02 /* RZDBandListViewController.m */; };
+		63A2FEB01ADC5ACF00764A02 /* RZDAppAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A2FEAF1ADC5ACF00764A02 /* RZDAppAuthViewController.m */; };
+		63A2FF051ADC668500764A02 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A2FF041ADC668500764A02 /* Accelerate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63737AE31AD5E547004CBD1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63737AC11AD5E546004CBD1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63737AC81AD5E547004CBD1F;
+			remoteInfo = nabudemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		635992A11ADD954D0078EC6B /* RZDSleepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RZDSleepViewController.h; path = ViewControllers/RZDSleepViewController.h; sourceTree = "<group>"; };
+		635992A21ADD954D0078EC6B /* RZDSleepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RZDSleepViewController.m; path = ViewControllers/RZDSleepViewController.m; sourceTree = "<group>"; };
+		63737AC91AD5E547004CBD1F /* nabudemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nabudemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63737ACD1AD5E547004CBD1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63737ACE1AD5E547004CBD1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63737AD01AD5E547004CBD1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63737AD11AD5E547004CBD1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63737AD71AD5E547004CBD1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63737AD91AD5E547004CBD1F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		63737ADC1AD5E547004CBD1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		63737AE21AD5E547004CBD1F /* nabudemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nabudemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63737AE71AD5E547004CBD1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63737AE81AD5E547004CBD1F /* nabudemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nabudemoTests.m; sourceTree = "<group>"; };
+		63737AF61AD5FA88004CBD1F /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		63737AFB1AD6EF94004CBD1F /* RZDLoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RZDLoadingViewController.h; path = ViewControllers/RZDLoadingViewController.h; sourceTree = "<group>"; };
+		63737AFC1AD6EF94004CBD1F /* RZDLoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RZDLoadingViewController.m; path = ViewControllers/RZDLoadingViewController.m; sourceTree = "<group>"; };
+		63737AFE1AD6EFB1004CBD1F /* RZDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RZDTableViewController.h; path = ViewControllers/RZDTableViewController.h; sourceTree = "<group>"; };
+		63737AFF1AD6EFB1004CBD1F /* RZDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RZDTableViewController.m; path = ViewControllers/RZDTableViewController.m; sourceTree = "<group>"; };
+		63737B011AD700C7004CBD1F /* RZDFitnessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RZDFitnessViewController.h; path = ViewControllers/RZDFitnessViewController.h; sourceTree = "<group>"; };
+		63737B021AD700C7004CBD1F /* RZDFitnessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RZDFitnessViewController.m; path = ViewControllers/RZDFitnessViewController.m; sourceTree = "<group>"; };
+		63737B191AD70F3C004CBD1F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		63737B2E1AD725AD004CBD1F /* RZDPulseAndHandshakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZDPulseAndHandshakeViewController.h; sourceTree = "<group>"; };
+		63737B2F1AD725AD004CBD1F /* RZDPulseAndHandshakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZDPulseAndHandshakeViewController.m; sourceTree = "<group>"; };
+		63737B341AD74DCF004CBD1F /* NabuOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NabuOpenSDK.framework; sourceTree = "<group>"; };
+		63A2FE9B1AD854D500764A02 /* RZDUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RZDUserInfoViewController.h; path = ViewControllers/RZDUserInfoViewController.h; sourceTree = "<group>"; };
+		63A2FE9C1AD854D500764A02 /* RZDUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RZDUserInfoViewController.m; path = ViewControllers/RZDUserInfoViewController.m; sourceTree = "<group>"; };
+		63A2FEA01AD871C000764A02 /* RZDNotificationTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RZDNotificationTestViewController.h; path = ViewControllers/RZDNotificationTestViewController.h; sourceTree = "<group>"; };
+		63A2FEA11AD871C000764A02 /* RZDNotificationTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RZDNotificationTestViewController.m; path = ViewControllers/RZDNotificationTestViewController.m; sourceTree = "<group>"; };
+		63A2FEA31AD899A300764A02 /* RZDClipboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RZDClipboardViewController.h; path = ViewControllers/RZDClipboardViewController.h; sourceTree = "<group>"; };
+		63A2FEA41AD899A300764A02 /* RZDClipboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RZDClipboardViewController.m; path = ViewControllers/RZDClipboardViewController.m; sourceTree = "<group>"; };
+		63A2FEAA1ADC3E8B00764A02 /* RZDBandListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RZDBandListViewController.h; path = ViewControllers/RZDBandListViewController.h; sourceTree = "<group>"; };
+		63A2FEAB1ADC3E8B00764A02 /* RZDBandListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RZDBandListViewController.m; path = ViewControllers/RZDBandListViewController.m; sourceTree = "<group>"; };
+		63A2FEAE1ADC5ACF00764A02 /* RZDAppAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RZDAppAuthViewController.h; path = ViewControllers/RZDAppAuthViewController.h; sourceTree = "<group>"; };
+		63A2FEAF1ADC5ACF00764A02 /* RZDAppAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RZDAppAuthViewController.m; path = ViewControllers/RZDAppAuthViewController.m; sourceTree = "<group>"; };
+		63A2FF041ADC668500764A02 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63737AC61AD5E547004CBD1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A2FF051ADC668500764A02 /* Accelerate.framework in Frameworks */,
+				63737B351AD74DCF004CBD1F /* NabuOpenSDK.framework in Frameworks */,
+				63737B1A1AD70F3C004CBD1F /* QuartzCore.framework in Frameworks */,
+				63737AF71AD5FA88004CBD1F /* libxml2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63737ADF1AD5E547004CBD1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		635992A01ADD95370078EC6B /* Sleep Data */ = {
+			isa = PBXGroup;
+			children = (
+				635992A11ADD954D0078EC6B /* RZDSleepViewController.h */,
+				635992A21ADD954D0078EC6B /* RZDSleepViewController.m */,
+			);
+			name = "Sleep Data";
+			sourceTree = "<group>";
+		};
+		63737AC01AD5E546004CBD1F = {
+			isa = PBXGroup;
+			children = (
+				63737ACB1AD5E547004CBD1F /* nabudemo */,
+				63737AE51AD5E547004CBD1F /* nabudemoTests */,
+				63737ACA1AD5E547004CBD1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63737ACA1AD5E547004CBD1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63737AC91AD5E547004CBD1F /* nabudemo.app */,
+				63737AE21AD5E547004CBD1F /* nabudemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63737ACB1AD5E547004CBD1F /* nabudemo */ = {
+			isa = PBXGroup;
+			children = (
+				63737AFA1AD6EF68004CBD1F /* View Controllers */,
+				63737AD01AD5E547004CBD1F /* AppDelegate.h */,
+				63737AD11AD5E547004CBD1F /* AppDelegate.m */,
+				63737AD61AD5E547004CBD1F /* Main.storyboard */,
+				63737AD91AD5E547004CBD1F /* Images.xcassets */,
+				63737ADB1AD5E547004CBD1F /* LaunchScreen.xib */,
+				63737ACC1AD5E547004CBD1F /* Supporting Files */,
+			);
+			path = nabudemo;
+			sourceTree = "<group>";
+		};
+		63737ACC1AD5E547004CBD1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63737B1B1AD70F46004CBD1F /* Frameworks */,
+				63737ACD1AD5E547004CBD1F /* Info.plist */,
+				63737ACE1AD5E547004CBD1F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63737AE51AD5E547004CBD1F /* nabudemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				63737AE81AD5E547004CBD1F /* nabudemoTests.m */,
+				63737AE61AD5E547004CBD1F /* Supporting Files */,
+			);
+			path = nabudemoTests;
+			sourceTree = "<group>";
+		};
+		63737AE61AD5E547004CBD1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63737AE71AD5E547004CBD1F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63737AFA1AD6EF68004CBD1F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				63737AFB1AD6EF94004CBD1F /* RZDLoadingViewController.h */,
+				63737AFC1AD6EF94004CBD1F /* RZDLoadingViewController.m */,
+				63737AFE1AD6EFB1004CBD1F /* RZDTableViewController.h */,
+				63737AFF1AD6EFB1004CBD1F /* RZDTableViewController.m */,
+				635992A01ADD95370078EC6B /* Sleep Data */,
+				63A2FEB21ADC642C00764A02 /* Fitness Data */,
+				63A2FEAD1ADC5ABF00764A02 /* App Auth */,
+				63A2FEA91ADC3E7500764A02 /* Band List */,
+				63A2FEA61AD899A600764A02 /* Clipboard Test */,
+				63A2FE9F1AD8719F00764A02 /* Notification Testing */,
+				63A2FE9A1AD854BD00764A02 /* Pulse and Handshake */,
+				63A2FE9E1AD854D800764A02 /* User Info */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		63737B1B1AD70F46004CBD1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63A2FF041ADC668500764A02 /* Accelerate.framework */,
+				63737B341AD74DCF004CBD1F /* NabuOpenSDK.framework */,
+				63737AF61AD5FA88004CBD1F /* libxml2.dylib */,
+				63737B191AD70F3C004CBD1F /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63A2FE9A1AD854BD00764A02 /* Pulse and Handshake */ = {
+			isa = PBXGroup;
+			children = (
+				63737B2E1AD725AD004CBD1F /* RZDPulseAndHandshakeViewController.h */,
+				63737B2F1AD725AD004CBD1F /* RZDPulseAndHandshakeViewController.m */,
+			);
+			name = "Pulse and Handshake";
+			sourceTree = "<group>";
+		};
+		63A2FE9E1AD854D800764A02 /* User Info */ = {
+			isa = PBXGroup;
+			children = (
+				63A2FE9B1AD854D500764A02 /* RZDUserInfoViewController.h */,
+				63A2FE9C1AD854D500764A02 /* RZDUserInfoViewController.m */,
+			);
+			name = "User Info";
+			sourceTree = "<group>";
+		};
+		63A2FE9F1AD8719F00764A02 /* Notification Testing */ = {
+			isa = PBXGroup;
+			children = (
+				63A2FEA01AD871C000764A02 /* RZDNotificationTestViewController.h */,
+				63A2FEA11AD871C000764A02 /* RZDNotificationTestViewController.m */,
+			);
+			name = "Notification Testing";
+			sourceTree = "<group>";
+		};
+		63A2FEA61AD899A600764A02 /* Clipboard Test */ = {
+			isa = PBXGroup;
+			children = (
+				63A2FEA31AD899A300764A02 /* RZDClipboardViewController.h */,
+				63A2FEA41AD899A300764A02 /* RZDClipboardViewController.m */,
+			);
+			name = "Clipboard Test";
+			sourceTree = "<group>";
+		};
+		63A2FEA91ADC3E7500764A02 /* Band List */ = {
+			isa = PBXGroup;
+			children = (
+				63A2FEAA1ADC3E8B00764A02 /* RZDBandListViewController.h */,
+				63A2FEAB1ADC3E8B00764A02 /* RZDBandListViewController.m */,
+			);
+			name = "Band List";
+			sourceTree = "<group>";
+		};
+		63A2FEAD1ADC5ABF00764A02 /* App Auth */ = {
+			isa = PBXGroup;
+			children = (
+				63A2FEAE1ADC5ACF00764A02 /* RZDAppAuthViewController.h */,
+				63A2FEAF1ADC5ACF00764A02 /* RZDAppAuthViewController.m */,
+			);
+			name = "App Auth";
+			sourceTree = "<group>";
+		};
+		63A2FEB21ADC642C00764A02 /* Fitness Data */ = {
+			isa = PBXGroup;
+			children = (
+				63737B011AD700C7004CBD1F /* RZDFitnessViewController.h */,
+				63737B021AD700C7004CBD1F /* RZDFitnessViewController.m */,
+			);
+			name = "Fitness Data";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63737AC81AD5E547004CBD1F /* nabudemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63737AEC1AD5E547004CBD1F /* Build configuration list for PBXNativeTarget "nabudemo" */;
+			buildPhases = (
+				63737AC51AD5E547004CBD1F /* Sources */,
+				63737AC61AD5E547004CBD1F /* Frameworks */,
+				63737AC71AD5E547004CBD1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nabudemo;
+			productName = nabudemo;
+			productReference = 63737AC91AD5E547004CBD1F /* nabudemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63737AE11AD5E547004CBD1F /* nabudemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63737AEF1AD5E547004CBD1F /* Build configuration list for PBXNativeTarget "nabudemoTests" */;
+			buildPhases = (
+				63737ADE1AD5E547004CBD1F /* Sources */,
+				63737ADF1AD5E547004CBD1F /* Frameworks */,
+				63737AE01AD5E547004CBD1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63737AE41AD5E547004CBD1F /* PBXTargetDependency */,
+			);
+			name = nabudemoTests;
+			productName = nabudemoTests;
+			productReference = 63737AE21AD5E547004CBD1F /* nabudemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63737AC11AD5E546004CBD1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "David Attaie";
+				TargetAttributes = {
+					63737AC81AD5E547004CBD1F = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					63737AE11AD5E547004CBD1F = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 63737AC81AD5E547004CBD1F;
+					};
+				};
+			};
+			buildConfigurationList = 63737AC41AD5E546004CBD1F /* Build configuration list for PBXProject "nabudemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63737AC01AD5E546004CBD1F;
+			productRefGroup = 63737ACA1AD5E547004CBD1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63737AC81AD5E547004CBD1F /* nabudemo */,
+				63737AE11AD5E547004CBD1F /* nabudemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63737AC71AD5E547004CBD1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63737AD81AD5E547004CBD1F /* Main.storyboard in Resources */,
+				63737ADD1AD5E547004CBD1F /* LaunchScreen.xib in Resources */,
+				63737ADA1AD5E547004CBD1F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63737AE01AD5E547004CBD1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63737AC51AD5E547004CBD1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63737AD21AD5E547004CBD1F /* AppDelegate.m in Sources */,
+				63737B301AD725AD004CBD1F /* RZDPulseAndHandshakeViewController.m in Sources */,
+				63A2FEA51AD899A300764A02 /* RZDClipboardViewController.m in Sources */,
+				63737AFD1AD6EF94004CBD1F /* RZDLoadingViewController.m in Sources */,
+				63A2FEAC1ADC3E8B00764A02 /* RZDBandListViewController.m in Sources */,
+				63737B001AD6EFB1004CBD1F /* RZDTableViewController.m in Sources */,
+				63A2FEA21AD871C000764A02 /* RZDNotificationTestViewController.m in Sources */,
+				635992A31ADD954D0078EC6B /* RZDSleepViewController.m in Sources */,
+				63A2FE9D1AD854D500764A02 /* RZDUserInfoViewController.m in Sources */,
+				63737ACF1AD5E547004CBD1F /* main.m in Sources */,
+				63737B031AD700C7004CBD1F /* RZDFitnessViewController.m in Sources */,
+				63A2FEB01ADC5ACF00764A02 /* RZDAppAuthViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63737ADE1AD5E547004CBD1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63737AE91AD5E547004CBD1F /* nabudemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63737AE41AD5E547004CBD1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63737AC81AD5E547004CBD1F /* nabudemo */;
+			targetProxy = 63737AE31AD5E547004CBD1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63737AD61AD5E547004CBD1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63737AD71AD5E547004CBD1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63737ADB1AD5E547004CBD1F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63737ADC1AD5E547004CBD1F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63737AEA1AD5E547004CBD1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63737AEB1AD5E547004CBD1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63737AED1AD5E547004CBD1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/nabudemo",
+				);
+				GCC_VERSION = "";
+				INFOPLIST_FILE = nabudemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/nabudemo",
+					"$(PROJECT_DIR)/nabudemo/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63737AEE1AD5E547004CBD1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/nabudemo",
+				);
+				GCC_VERSION = "";
+				INFOPLIST_FILE = nabudemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/nabudemo",
+					"$(PROJECT_DIR)/nabudemo/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		63737AF01AD5E547004CBD1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = nabudemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nabudemo.app/nabudemo";
+			};
+			name = Debug;
+		};
+		63737AF11AD5E547004CBD1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = nabudemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nabudemo.app/nabudemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63737AC41AD5E546004CBD1F /* Build configuration list for PBXProject "nabudemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63737AEA1AD5E547004CBD1F /* Debug */,
+				63737AEB1AD5E547004CBD1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63737AEC1AD5E547004CBD1F /* Build configuration list for PBXNativeTarget "nabudemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63737AED1AD5E547004CBD1F /* Debug */,
+				63737AEE1AD5E547004CBD1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63737AEF1AD5E547004CBD1F /* Build configuration list for PBXNativeTarget "nabudemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63737AF01AD5E547004CBD1F /* Debug */,
+				63737AF11AD5E547004CBD1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63737AC11AD5E546004CBD1F /* Project object */;
+}
