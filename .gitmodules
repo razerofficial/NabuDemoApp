@@ -1,0 +1,5 @@
+[submodule "nabudemo/Frameworks/NabuOpenSDK"]
+	path = nabudemo/Frameworks/NabuOpenSDK
+	url = https://github.com/razerofficial/NabuOpenSDKiOS.git
+	fetchRecurseSubmodules = true
+	ignore = all

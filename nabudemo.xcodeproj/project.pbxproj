@@ -20,13 +20,12 @@
 		63737B031AD700C7004CBD1F /* RZDFitnessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63737B021AD700C7004CBD1F /* RZDFitnessViewController.m */; };
 		63737B1A1AD70F3C004CBD1F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63737B191AD70F3C004CBD1F /* QuartzCore.framework */; };
 		63737B301AD725AD004CBD1F /* RZDPulseAndHandshakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63737B2F1AD725AD004CBD1F /* RZDPulseAndHandshakeViewController.m */; };
-		63737B351AD74DCF004CBD1F /* NabuOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63737B341AD74DCF004CBD1F /* NabuOpenSDK.framework */; };
 		63A2FE9D1AD854D500764A02 /* RZDUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A2FE9C1AD854D500764A02 /* RZDUserInfoViewController.m */; };
 		63A2FEA21AD871C000764A02 /* RZDNotificationTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A2FEA11AD871C000764A02 /* RZDNotificationTestViewController.m */; };
 		63A2FEA51AD899A300764A02 /* RZDClipboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A2FEA41AD899A300764A02 /* RZDClipboardViewController.m */; };
 		63A2FEAC1ADC3E8B00764A02 /* RZDBandListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A2FEAB1ADC3E8B00764A02 /* RZDBandListViewController.m */; };
 		63A2FEB01ADC5ACF00764A02 /* RZDAppAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A2FEAF1ADC5ACF00764A02 /* RZDAppAuthViewController.m */; };
-		63A2FF051ADC668500764A02 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A2FF041ADC668500764A02 /* Accelerate.framework */; };
+		63E619611ADDD981008414A8 /* NabuOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E619601ADDD981008414A8 /* NabuOpenSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +62,6 @@
 		63737B191AD70F3C004CBD1F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		63737B2E1AD725AD004CBD1F /* RZDPulseAndHandshakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZDPulseAndHandshakeViewController.h; sourceTree = "<group>"; };
 		63737B2F1AD725AD004CBD1F /* RZDPulseAndHandshakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZDPulseAndHandshakeViewController.m; sourceTree = "<group>"; };
-		63737B341AD74DCF004CBD1F /* NabuOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NabuOpenSDK.framework; sourceTree = "<group>"; };
 		63A2FE9B1AD854D500764A02 /* RZDUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RZDUserInfoViewController.h; path = ViewControllers/RZDUserInfoViewController.h; sourceTree = "<group>"; };
 		63A2FE9C1AD854D500764A02 /* RZDUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RZDUserInfoViewController.m; path = ViewControllers/RZDUserInfoViewController.m; sourceTree = "<group>"; };
 		63A2FEA01AD871C000764A02 /* RZDNotificationTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RZDNotificationTestViewController.h; path = ViewControllers/RZDNotificationTestViewController.h; sourceTree = "<group>"; };
@@ -74,7 +72,7 @@
 		63A2FEAB1ADC3E8B00764A02 /* RZDBandListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RZDBandListViewController.m; path = ViewControllers/RZDBandListViewController.m; sourceTree = "<group>"; };
 		63A2FEAE1ADC5ACF00764A02 /* RZDAppAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RZDAppAuthViewController.h; path = ViewControllers/RZDAppAuthViewController.h; sourceTree = "<group>"; };
 		63A2FEAF1ADC5ACF00764A02 /* RZDAppAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RZDAppAuthViewController.m; path = ViewControllers/RZDAppAuthViewController.m; sourceTree = "<group>"; };
-		63A2FF041ADC668500764A02 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		63E619601ADDD981008414A8 /* NabuOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NabuOpenSDK.framework; path = Frameworks/NabuOpenSDK/NabuOpenSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63A2FF051ADC668500764A02 /* Accelerate.framework in Frameworks */,
-				63737B351AD74DCF004CBD1F /* NabuOpenSDK.framework in Frameworks */,
+				63E619611ADDD981008414A8 /* NabuOpenSDK.framework in Frameworks */,
 				63737B1A1AD70F3C004CBD1F /* QuartzCore.framework in Frameworks */,
 				63737AF71AD5FA88004CBD1F /* libxml2.dylib in Frameworks */,
 			);
@@ -189,8 +186,7 @@
 		63737B1B1AD70F46004CBD1F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				63A2FF041ADC668500764A02 /* Accelerate.framework */,
-				63737B341AD74DCF004CBD1F /* NabuOpenSDK.framework */,
+				63E619601ADDD981008414A8 /* NabuOpenSDK.framework */,
 				63737AF61AD5FA88004CBD1F /* libxml2.dylib */,
 				63737B191AD70F3C004CBD1F /* QuartzCore.framework */,
 			);
@@ -496,6 +492,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/nabudemo",
+					"$(PROJECT_DIR)/nabudemo/Frameworks/NabuOpenSDK",
 				);
 				GCC_VERSION = "";
 				INFOPLIST_FILE = nabudemo/Info.plist;
@@ -517,6 +514,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/nabudemo",
+					"$(PROJECT_DIR)/nabudemo/Frameworks/NabuOpenSDK",
 				);
 				GCC_VERSION = "";
 				INFOPLIST_FILE = nabudemo/Info.plist;
